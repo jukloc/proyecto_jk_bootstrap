@@ -1,3 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{ 
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+/* body{
+    display:inline-block
+}
+
+
 footer{
     background-color:lightgrey;
+}
+
+.border {
+    width: auto; height: 320px;
+} */
+
+header  {
+    background-color: burlywood;
+    font-size: 2rem;
+}
+
+.gradient {
+    background-image: linear-gradient(burlywood,chocolate);
+}
+
+.imgMain img{
+    width: 50%; height: auto;
+    position:sticky   
+}
+
+h4 {
+    margin: 3rem;
+    background-color: bisque;
+}
+
+form {display:inline-flex}
+
+.card {
+    border-radius: 3rem;
+}
+
+/*
+.animation{
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+}*/
+
+h5{
+    font-size: 2.5rem;
+}
+div{
+    font-size: 2rem;
+}
+
+footer{
+    background-color: burlywood;
+}
+footer ul li {
+    display: inline;
+    font-size: 10rem;
 }
