@@ -45,12 +45,11 @@ form {display:inline-flex}
     border-radius: 3rem;
 }
 
-/*
 .animation{
     animation-name: aparecer;
     animation-iteration-count: 1;
     animation-duration: 10s;
-}*/
+}
 
 h5{
     font-size: 2.5rem;
