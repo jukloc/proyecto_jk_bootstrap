@@ -51,6 +51,18 @@ form {display:inline-flex}
     animation-duration: 10s;
 }
 
+.stylesheet {
+    background-color:beige
+}
+
+.transition{
+    width: 150px;
+    transition: width 2s;
+}
+.transition:hover{
+    width: 200px;
+}
+
 h5{
     font-size: 2.5rem;
 }
