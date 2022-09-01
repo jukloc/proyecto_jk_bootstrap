@@ -7,10 +7,6 @@ html{
     box-sizing: border-box;
 }
 
-.border {
-    width: auto; height: 320px;
-}
-
 header  {
     background-color: burlywood;
     font-size: 2rem;
