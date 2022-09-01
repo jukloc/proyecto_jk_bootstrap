@@ -7,22 +7,18 @@ html{
     box-sizing: border-box;
 }
 
-/* body{
-    display:inline-block
-}
-
-
-footer{
-    background-color:lightgrey;
-}
-
 .border {
     width: auto; height: 320px;
-} */
+}
 
 header  {
     background-color: burlywood;
     font-size: 2rem;
+}
+
+div div div iframe {
+        margin: 1rem;
+        padding: 3rem;
 }
 
 .gradient {
@@ -34,15 +30,26 @@ header  {
     position:sticky   
 }
 
+h2{
+    margin: 3rem;
+    padding: 2rem;
+    background-color: bisque;
+}
+
 h4 {
     margin: 3rem;
-    background-color: bisque;
+    padding: 1rem;
 }
 
 form {display:inline-flex}
 
 .card {
     border-radius: 3rem;
+}
+
+@keyframes aparecer{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .animation{
