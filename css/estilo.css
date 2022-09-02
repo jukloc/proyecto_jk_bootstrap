@@ -49,15 +49,10 @@ form {display:inline-flex}
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
-
 .animation{
     animation-name: aparecer;
     animation-iteration-count: 1;
     animation-duration: 10s;
-}
-
-.stylesheet {
-    background-color:beige
 }
 
 .transition{
@@ -85,6 +80,7 @@ a {
 
 footer{
     background-color: burlywood;
+    overflow: auto;
 }
 footer ul li {
     display: inline;
