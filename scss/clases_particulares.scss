@@ -1,0 +1,21 @@
+h4 {
+    margin: 3rem;
+    padding: 1rem;
+}
+
+h5{
+    font-size: 2.5rem;
+}
+
+form {display:inline-flex}
+
+
+@keyframes aparecer{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.animation{
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+}
