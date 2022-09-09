@@ -1,5 +1,5 @@
 header{
-    background-color: burlywood;
+    background-color: $colorPrimario;
     font-size: 2rem;
 }
 div{
@@ -14,7 +14,7 @@ div{
 }
 
 .gradient{
-background-image: linear-gradient(burlywood,chocolate);
+background-image: linear-gradient($colorPrimario,$colorSecundario);
 }
 
 .imgMain{
