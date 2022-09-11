@@ -1,5 +1,5 @@
 footer{
-    background-color: $colorPrimario;
+    background-color: map-get($paletaColores, colorPrimario);
     overflow: auto;
 }
 footer{

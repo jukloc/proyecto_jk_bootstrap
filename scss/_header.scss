@@ -1,5 +1,5 @@
 header{
-    background-color: $colorPrimario;
+    background-color: map-get($paletaColores, colorPrimario);
     font-size: 2rem;
 }
 div{
