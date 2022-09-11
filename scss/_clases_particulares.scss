@@ -18,3 +18,21 @@ form {display:inline-flex}
     animation-iteration-count: 1;
     animation-duration: 10s;
 }
+
+main{
+    div{
+        background-color:  map-get($coloresFondo, color1);
+    }
+}
+
+main{
+    form{
+        background-color: map-get($coloresFondo, color2);
+    }
+}
+
+/*MAPA*/
+$coloresFondo: (
+    color1: #FFEEE0
+    color2:#FFFEE0
+);

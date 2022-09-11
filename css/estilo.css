@@ -64,6 +64,7 @@ form {
   animation-iteration-count: 1;
   animation-duration: 10s; }
 
+/*MAPA*/
 .transition {
   width: 150px;
   transition: width 2s; }
