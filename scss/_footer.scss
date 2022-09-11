@@ -1,0 +1,36 @@
+footer{
+    background-color: $colorPrimario;
+    overflow: auto;
+}
+footer{
+    ul{
+        li {
+            display: inline;
+            font-size: 10rem;
+        }
+    }
+}
+
+// MIXINS
+@mixin redes($hover) {
+    font-size: 30px; 
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+    &:hover{
+    color: $hover;
+    }
+}
+
+    .bi-facebook {
+    @include redes ($fb);
+}
+
+    .bi-instagram {
+    @include redes ($insta);
+}
+
+    .bi-twitter {
+    @include redes ($tw);
+}

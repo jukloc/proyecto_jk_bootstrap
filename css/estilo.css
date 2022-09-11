@@ -10,7 +10,7 @@ header {
   background-color: burlywood;
   font-size: 2rem; }
 
-div div div iframe {
+div div div iframe, div button div iframe, div div button iframe, div button button iframe {
   margin: 1rem;
   padding: 3rem; }
 
@@ -37,17 +37,17 @@ h2 {
   margin: 1rem;
   padding: 1rem; }
 
-div {
+div, div button {
   font-size: 2rem; }
 
-h5 {
+h5, a {
   font-size: 2.5rem; }
 
 h4 {
   margin: 3rem;
   padding: 1rem; }
 
-h5 {
+h5, a {
   font-size: 1.5rem; }
 
 form {
@@ -71,17 +71,15 @@ form {
 .transition:hover {
   width: 200px; }
 
-h5 {
-  font-size: 2.5rem; }
-
-div {
-  font-size: 2rem; }
-
-div button {
-  font-size: 2rem; }
-
-a {
+h5, a {
   font-size: 1.5rem; }
+
+div, div button {
+  font-size: 2rem; }
+
+/* EXTENDS */
+div button {
+  font-family: tahoma; }
 
 footer {
   background-color: burlywood;
@@ -90,3 +88,30 @@ footer {
 footer ul li {
   display: inline;
   font-size: 10rem; }
+
+.bi-facebook {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff; }
+  .bi-facebook:hover {
+    color: #3b5998; }
+
+.bi-instagram {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff; }
+  .bi-instagram:hover {
+    color: #8a3ab9; }
+
+.bi-twitter {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff; }
+  .bi-twitter:hover {
+    color: #1899e4; }

@@ -1,0 +1,18 @@
+h5{
+    font-size: 1.5rem;
+}
+div{
+    font-size: 2rem;
+}
+
+/* EXTENDS */
+div{
+    button {
+        @extend div;
+        font-family: tahoma
+    }
+}
+
+a {
+    @extend h5;
+}
