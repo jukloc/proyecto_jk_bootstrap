@@ -1,7 +1,12 @@
+p {
+    text-align: center;
+}
+
 .transition{
     width: 150px;
     transition: width 2s;
 }
+
 .transition:hover{
     width: 200px;
 }
